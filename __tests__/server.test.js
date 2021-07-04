@@ -21,8 +21,5 @@ describe('Server Tests', ()=>{
     const response = await request.post('/signin').set({"Authorization":"Basic eWF6YW46MTIzNA=="});
     expect(response.status).toEqual(200);
   });
-
-  
-
 });
 
