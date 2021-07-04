@@ -2,7 +2,6 @@
 
 // 3rd Party Resources
 const express = require('express');
-const { require } = require('yargs');
 const router = require('./auth/router')
 const cors = require('cors');
 
